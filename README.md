@@ -22,7 +22,7 @@ Each model addresses the classification imbalance in a different way.
 ## Results
 The models had balanced accuracy scores between 0.54427 and 0.93166, see below. High-risk precision ranged from 0.01 to 0.09 and high-risk recall ranged from 0.61 to 0.92. Low-risk precision was 1.00 and low-risk recall ranged from 0.40 to 0.94. 
 
-![credit_risk_model_comparison](url)
+![credit_risk_model_comparison](https://github.com/JacquelineCl/Credit_Risk_Analysis/blob/aa8e0da126e24a076ce8b09310868b8cdbf3b93a/Resources/credit_risk_model_comparision.png)
 
 ## Summary
 The model that performed the best at predicting true high_risk accounts was the was eec_model, with a 0.09 precision score. As this model accuratly predicts high-risk loand only 9% of the time, I would not recommend using any of these models at this time. Instead, I would recomment training of the eec_model with additional loan data. 
